@@ -19,7 +19,7 @@ Application        : Image Recognition, Image Classification, Medical Imaging
 
 ### Dataset: 
 **Dataset : [ISIC Skin Cancer Challenge 2019](https://challenge.isic-archive.com/data/#2019) (9.1GB)**
-![](Thumbnails/dataset.png)
+![](https://github.com/zacharyvunguyen/Skin-Cancer-Detection-with-Transfer-Learning-Deep-CNN/blob/156b1a91ffd11b80fc7aedff1694198e76b61dd5/Thumbnails/Cancer%20Images%20Sample.png)
 
 ```
 - The original dataset contains 25,331 JPEG images of skin lesions with 9 different skin cancer types
@@ -38,7 +38,7 @@ Number/Size of Images   : Total      : 12445 (555 MB)
                           Training   : 12295
                           Testing    : 150
 ```
-Data pre-processing workflows: <br>
+**_Data pre-processing workflows:_** <br>
 [[00 - Skin Cancer Data Preparation.ipynb]](https://github.com/zacharyvunguyen/Skin-Cancer-Detection-with-Transfer-Learning-Deep-CNN/blob/d9a227470733ee2e4c41e0cb083158652f12ca1f/00%20-%20Skin%20Cancer%20Data%20Preparation.ipynb)
 
 ### Result 
@@ -58,7 +58,7 @@ AUC                                              : 0.99
 
 ![](Thumbnails/ROC.png)
 
-Model-building workflow: <br>
+**_Model-building workflow:_** <br>
 [01_Skin_Cancer_Classification_with_MobileNetV2_Model_Building_(Final).ipynb](https://github.com/zacharyvunguyen/Skin-Cancer-Detection-with-Transfer-Learning-Deep-CNN/blob/9bb2cb94f05340a2049fc858eabefd1105116ff9/01_Skin_Cancer_Classification_with_MobileNetV2_Model_Building_(Final).ipynb)
 
 **GradCAM visualization**
@@ -67,5 +67,5 @@ Model-building workflow: <br>
 |-----------------------------------|-----------------------------------------|
 | ![](https://github.com/zacharyvunguyen/Skin-Cancer-Detection-with-Transfer-Learning-Deep-CNN/blob/c74e9816ea63d5100fe8902c9e9020852254b1f0/Thumbnails/sample%20image.jpeg) | ![](https://github.com/zacharyvunguyen/Skin-Cancer-Detection-with-Transfer-Learning-Deep-CNN/blob/c74e9816ea63d5100fe8902c9e9020852254b1f0/Thumbnails/image%20with%20gradcam.jpeg) |
 
-Visual explaination GradCAM workflow: <br>
+**_Visual explaination GradCAM workflow:_** <br>
 [02_Skin_Cancer_Classification_Visual_explanation_GradCAM.ipynb](https://github.com/zacharyvunguyen/Skin-Cancer-Detection-with-Transfer-Learning-Deep-CNN/blob/d9a227470733ee2e4c41e0cb083158652f12ca1f/02_Skin_Cancer_Classification_Visual_explanation_GradCAM.ipynb)
