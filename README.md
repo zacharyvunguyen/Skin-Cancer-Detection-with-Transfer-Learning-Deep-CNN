@@ -54,7 +54,8 @@ F1-score                                         : 98%
 AUC                                              : 0.99
 ```
 
-**ROC AUC**
+**ROC AUC**<br>
+
 ![](Thumbnails/ROC.png)
 
 Model-building workflow: <br>
@@ -64,7 +65,7 @@ Model-building workflow: <br>
 
 | Skin lesion                       | Skin lesion with GradCAM                |
 |-----------------------------------|-----------------------------------------|
-| ![](Thumbnails/sample image.jpeg) | ![](Thumbnails/image with gradcam.jpeg) |
+| ![](https://github.com/zacharyvunguyen/Skin-Cancer-Detection-with-Transfer-Learning-Deep-CNN/blob/c74e9816ea63d5100fe8902c9e9020852254b1f0/Thumbnails/sample%20image.jpeg) | ![](https://github.com/zacharyvunguyen/Skin-Cancer-Detection-with-Transfer-Learning-Deep-CNN/blob/c74e9816ea63d5100fe8902c9e9020852254b1f0/Thumbnails/image%20with%20gradcam.jpeg) |
 
 Visual explaination GradCAM workflow: <br>
 [02_Skin_Cancer_Classification_Visual_explanation_GradCAM.ipynb](https://github.com/zacharyvunguyen/Skin-Cancer-Detection-with-Transfer-Learning-Deep-CNN/blob/d9a227470733ee2e4c41e0cb083158652f12ca1f/02_Skin_Cancer_Classification_Visual_explanation_GradCAM.ipynb)
