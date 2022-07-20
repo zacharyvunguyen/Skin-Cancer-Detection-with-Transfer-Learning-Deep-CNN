@@ -39,3 +39,22 @@ Number/Size of Images   : Total      : 12445 (555 MB)
                           Testing    : 150
 ```
 Data pre-processing workflows: [00 - Skin Cancer Data Preparation.ipynb]
+
+### Result 
+
+```
+Performance Metrics 
+Test Accuracy                                    : 97.80%
+Precision                                        : 98%
+Sensitivity (BCC)                                : 99% 
+Sensitivity (Melanoma)                           : 97% 
+Sensitivity (Nevus)                              : 98%
+F1-score                                         : 98%
+AUC                                              : 0.99
+```
+
+**ROC AUC**
+![](Thumbnails/ROC.png)
+
+Model-building workflows: [01_Skin_Cancer_Classification_with_MobileNetV2_Model_Building_(Final).ipynb](https://github.com/zacharyvunguyen/Skin-Cancer-Detection-with-Transfer-Learning-Deep-CNN/blob/9bb2cb94f05340a2049fc858eabefd1105116ff9/01_Skin_Cancer_Classification_with_MobileNetV2_Model_Building_(Final).ipynb)
+
