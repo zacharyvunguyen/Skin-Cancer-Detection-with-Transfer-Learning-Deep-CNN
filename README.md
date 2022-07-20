@@ -38,7 +38,8 @@ Number/Size of Images   : Total      : 12445 (555 MB)
                           Training   : 12295
                           Testing    : 150
 ```
-Data pre-processing workflows: [00 - Skin Cancer Data Preparation.ipynb]
+Data pre-processing workflows: <br>
+[[00 - Skin Cancer Data Preparation.ipynb]](https://github.com/zacharyvunguyen/Skin-Cancer-Detection-with-Transfer-Learning-Deep-CNN/blob/d9a227470733ee2e4c41e0cb083158652f12ca1f/00%20-%20Skin%20Cancer%20Data%20Preparation.ipynb)
 
 ### Result 
 
@@ -56,5 +57,14 @@ AUC                                              : 0.99
 **ROC AUC**
 ![](Thumbnails/ROC.png)
 
-Model-building workflows: [01_Skin_Cancer_Classification_with_MobileNetV2_Model_Building_(Final).ipynb](https://github.com/zacharyvunguyen/Skin-Cancer-Detection-with-Transfer-Learning-Deep-CNN/blob/9bb2cb94f05340a2049fc858eabefd1105116ff9/01_Skin_Cancer_Classification_with_MobileNetV2_Model_Building_(Final).ipynb)
+Model-building workflow: <br>
+[01_Skin_Cancer_Classification_with_MobileNetV2_Model_Building_(Final).ipynb](https://github.com/zacharyvunguyen/Skin-Cancer-Detection-with-Transfer-Learning-Deep-CNN/blob/9bb2cb94f05340a2049fc858eabefd1105116ff9/01_Skin_Cancer_Classification_with_MobileNetV2_Model_Building_(Final).ipynb)
 
+**GradCAM visualization**
+
+| Skin lesion                       | Skin lesion with GradCAM                |
+|-----------------------------------|-----------------------------------------|
+| ![](Thumbnails/sample image.jpeg) | ![](Thumbnails/image with gradcam.jpeg) |
+
+Visual explaination GradCAM workflow: <br>
+[02_Skin_Cancer_Classification_Visual_explanation_GradCAM.ipynb](https://github.com/zacharyvunguyen/Skin-Cancer-Detection-with-Transfer-Learning-Deep-CNN/blob/d9a227470733ee2e4c41e0cb083158652f12ca1f/02_Skin_Cancer_Classification_Visual_explanation_GradCAM.ipynb)
