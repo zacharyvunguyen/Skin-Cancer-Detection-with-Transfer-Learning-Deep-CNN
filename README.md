@@ -1,6 +1,6 @@
 # Skin Cancer Detection with Transfer Learning Deep CNN
 By utilizing **Transfer Learning** method, we will build **Deep Convolutional Neural Networks** for detecting three major skin cancers: Basal Cell Carcinoma, Melanoma, and Nevus.
-![](Thumbnails/Cancer Images Sample.png)
+![](https://github.com/zacharyvunguyen/Skin-Cancer-Detection-with-Transfer-Learning-Deep-CNN/blob/114dde8892c1c23f5953acc1ff7fc894a3d0187e/Thumbnails/Cancer%20Images%20Sample.png)
 ```
 Domain             : Computer Vision, Machine Learning 
 Sub-Domain         : Deep Learning, Image Recognition
@@ -19,7 +19,7 @@ Application        : Image Recognition, Image Classification, Medical Imaging
 
 ### Dataset: 
 **Dataset : [ISIC Skin Cancer Challenge 2019](https://challenge.isic-archive.com/data/#2019) (9.1GB)**
-![](https://github.com/zacharyvunguyen/Skin-Cancer-Detection-with-Transfer-Learning-Deep-CNN/blob/156b1a91ffd11b80fc7aedff1694198e76b61dd5/Thumbnails/Cancer%20Images%20Sample.png)
+![](https://github.com/zacharyvunguyen/Skin-Cancer-Detection-with-Transfer-Learning-Deep-CNN/blob/114dde8892c1c23f5953acc1ff7fc894a3d0187e/Thumbnails/dataset.png)
 
 ```
 - The original dataset contains 25,331 JPEG images of skin lesions with 9 different skin cancer types
